@@ -1,0 +1,5 @@
+image:
+  tag: "prod-latest"
+
+service:
+  nodePort: 30081

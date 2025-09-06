@@ -1,0 +1,5 @@
+image:
+  tag: "dev-latest"
+
+service:
+  nodePort: 30080
