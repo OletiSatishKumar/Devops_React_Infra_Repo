@@ -1,4 +1,10 @@
+image:
+  repository: satishosk/tourism_website_using_react
+  tag: prod-latest
+  pullPolicy: IfNotPresent
+
 service:
   type: NodePort
   port: 80
+  targetPort: 80
   nodePort: 30083
